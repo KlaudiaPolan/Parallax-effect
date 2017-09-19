@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster+Two:400,400italic);
-
-html, body {
-  min-height: 100%;
-  height: 100%;
+body{
+  margin: 0;
+}
+.container {
+  height: 50vw;
   position: relative;
   overflow: hidden;
 }
@@ -16,7 +17,7 @@ html, body {
   background: url('bg.jpg') no-repeat left center / cover;
 }
 
-h1 {
+.bg__title {
   margin: 10px 0;
   padding: 0;
   font-family: 'Lobster Two', sans-serif;
@@ -31,4 +32,22 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate3d(-50%,-50%,0);
+}
+.macbook{
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  margin-top: 40px;
+}
+.element__title {
+  margin: 20px 0;
+  padding: 0;
+  font-family: 'Lobster Two', sans-serif;
+  z-index: 1;
+  font-size: 400%;
+  text-align: center;
+  background: -webkit-linear-gradient(#1CB5E0, #000046);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /*text-shadow: 5px 5px 1px white;*/
 }
